@@ -1,6 +1,7 @@
 require "pry"
 def parrot(string="Squawk!")
   puts string
+  binding.pry 
   return string
-  binding.pry
+ 
 end
